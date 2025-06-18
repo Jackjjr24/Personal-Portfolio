@@ -87,7 +87,7 @@
                     </div>
                     <div class="counter-wrap ftco-animate d-flex mt-md-3">
                         <div class="text">
-                            <p><a href="Resume.pdf" class="btn btn-primary py-3 px-3" download>Download Resume</a></p>
+                            <p><a href="resume.pdf" class="btn btn-primary py-3 px-3" download>Download Resume</a></p>
                         </div>
                     </div>
                 </div>
@@ -305,6 +305,57 @@
                                     <span class="position">NPTEL Online Certification</span>
                                 </div>
                             </div>
+                            <div class="resume-wrap d-flex">
+                                <div class="icon d-flex align-items-center justify-content-center">
+                                    <span class="flaticon-ideas"></span>
+                                </div>
+                                <div class="text pl-3">
+                                    <span class="date">December 2024</span>
+                                    <h2 class="certificate-link" data-certificate="images/nb.png">Networking Basics</h2>
+                                    <span class="position">Cisco Networking Academy</span>
+                                </div>
+                            </div>
+    
+                            <div class="resume-wrap d-flex">
+                                <div class="icon d-flex align-items-center justify-content-center">
+                                    <span class="flaticon-ideas"></span>
+                                </div>
+                                <div class="text pl-3">
+                                    <span class="date">January - April 2025</span>
+                                    <h2 class="certificate-link" data-certificate="images/nptel2.png">Cloud Computing</h2>
+                                    <span class="position">NPTEL Online Certification</span>
+                                </div>
+                            </div>
+                            <div class="resume-wrap d-flex">
+                                <div class="icon d-flex align-items-center justify-content-center">
+                                    <span class="flaticon-ideas"></span>
+                                </div>
+                                <div class="text pl-3">
+                                    <span class="date">May 2025</span>
+                                    <h2 class="certificate-link" data-certificate="images/ccna3.png">CCNA: Introduction to Networks</h2>
+                                    <span class="position">Cisco Networking Academy</span>
+                                </div>
+                            </div>
+                            <div class="resume-wrap d-flex">
+                                <div class="icon d-flex align-items-center justify-content-center">
+                                    <span class="flaticon-ideas"></span>
+                                </div>
+                                <div class="text pl-3">
+                                    <span class="date">June 2025</span>
+                                    <h2 class="certificate-link" data-certificate="images/ccna2.png">CCNA: Switching, Routing, and Wireless Essentials</h2>
+                                    <span class="position">Cisco Networking Academy</span>
+                                </div>
+                            </div>
+                            <div class="resume-wrap d-flex">
+                                <div class="icon d-flex align-items-center justify-content-center">
+                                    <span class="flaticon-ideas"></span>
+                                </div>
+                                <div class="text pl-3">
+                                    <span class="date">June 2025</span>
+                                    <h2 class="certificate-link" data-certificate="images/ccna.png">CCNA: Enterprise Networking, Security and Automation</h2>
+                                    <span class="position">Cisco Networking Academy</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     
@@ -498,6 +549,16 @@
                                 <span class="position">Madras Institute of Technology</span>
                             </div>
                         </div>
+                        <div class="resume-wrap d-flex ftco-animate">
+                            <div class="icon d-flex align-items-center justify-content-center">
+                                <span class="flaticon-ideas"></span>
+                            </div>
+                            <div class="text pl-3">
+                                <span class="date">December 2024 - March 2025</span>
+                                <h2 class="certificate-link" data-certificate="images/intern3.png">UI/UX Design Internship</h2>
+                                <span class="position">Upnyx Innovative Solution</span>
+                            </div>
+                        </div>
                     </div>
                     <div id="page-5" class="page five">
                         <h2 class="heading">Achievements</h2>
@@ -582,100 +643,34 @@
         <div id="caption"></div>
     </div>
 
-    <script>
-        // Get the modal
-        var modal = document.getElementById("myModal");
-
-        // Get the image and insert it inside the modal - use its "alt" text as a caption
-        var modalImg = document.getElementById("img01");
-        var captionText = document.getElementById("caption");
-
-        // Attach click event to all elements with class "certificate-link"
-        var certificates = document.getElementsByClassName("certificate-link");
-        for (var i = 0; i < certificates.length; i++) {
-            certificates[i].onclick = function() {
-                modal.style.display = "block";
-                modalImg.src = this.getAttribute("data-certificate");
-                captionText.innerHTML = this.innerHTML;
-            }
-        }
-
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() {
-            modal.style.display = "none";
-        }
-
-        // When the user clicks anywhere outside of the modal image, close it
-        modal.onclick = function(event) {
-            if (event.target === modal) {
-                modal.style.display = "none";
-            }
-        }
-    </script>
-
-
-<style>
-    /* Modal styling */
-    .modal {
-        display: none;
-        position: fixed;
-        z-index: 1;
-        padding-top: 100px;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        overflow: auto;
-        background-color: rgba(0,0,0,0.9);
-    }
-
-    .modal-content {
-        margin: auto;
-        display: block;
-        width: 80%;
-        max-width: 700px;
-    }
-
-    .close {
-        position: absolute;
-        top: 15px;
-        right: 35px;
-        color: #f1f1f1;
-        font-size: 40px;
-        font-weight: bold;
-    }
-
-    .close:hover,
-    .close:focus {
-        color: #bbb;
-        text-decoration: none;
-        cursor: pointer;
-    }
-
-    #caption {
-        margin: auto;
-        display: block;
-        width: 80%;
-        max-width: 700px;
-        text-align: center;
-        color: #ccc;
-        padding: 10px 0;
-    }
-</style>
 
     <section class="ftco-section ftco-project" id="projects-section">
         <div class="container-fluid px-md-0">
+            
             <div class="row no-gutters justify-content-center pb-5">
                 <div class="col-md-12 heading-section text-center ftco-animate">
                     <h1 class="big big-2">Projects</h1>
                     <h2 class="mb-4">My Projects</h2>
+                    <div id="filter-buttons" class="d-flex flex-wrap justify-content-center gap-2">
+            <button class="btn btn-filter active" data-filter="all">All</button>
+            <button class="btn btn-filter" data-filter="UIUX">UI/UX</button>
+            <button class="btn btn-filter" data-filter="AI">AI</button>
+            <button class="btn btn-filter" data-filter="ML">ML</button>
+            <button class="btn btn-filter" data-filter="DL">DL</button>
+            <button class="btn btn-filter" data-filter="Flutter">Flutter</button>
+            <button class="btn btn-filter" data-filter="IoT">IoT</button>
+            <button class="btn btn-filter" data-filter="Python">Python</button>
+        </div>
                 </div>
             </div>
+            <div class="row justify-content-center mb-4">
+    <div class="col-md-10 text-center">
+        
+    </div>
+</div>
+
             <div class="row no-gutters">
-                <div class="col-md-4">
+                <div class="col-md-4 project-item" data-domain="UIUX">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-2.png);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
@@ -684,7 +679,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 project-item" data-domain="UIUX">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-3.png);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
@@ -693,7 +688,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 project-item" data-domain="UIUX">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-4.jpg);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
@@ -702,7 +697,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 project-item" data-domain="UIUX">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-9.jpg);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
@@ -711,7 +706,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 project-item" data-domain="UIUX">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-8.jpg);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
@@ -720,7 +715,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 project-item" data-domain="AI ML">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-5.png);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
@@ -729,7 +724,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 project-item" data-domain="ML">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-6.jpeg);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
@@ -738,7 +733,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 project-item" data-domain="ML">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-7.png);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
@@ -747,7 +742,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 project-item" data-domain="UIUX">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project.png);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
@@ -756,7 +751,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 project-item" data-domain="Python">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-10.png);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
@@ -765,7 +760,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 project-item" data-domain="Flutter" >
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-13.png);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
@@ -774,7 +769,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 project-item" data-domain="UIUX">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-12.png);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
@@ -783,7 +778,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 project-item" data-domain="DL">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/handsign.png);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
@@ -792,7 +787,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 project-item" data-domain="IoT">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/car.jpg);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
@@ -801,12 +796,39 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 project-item" data-domain="AI ML Flutter">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/medtech.png);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
                             <h3><a href="https://github.com/Jackjjr24/MedTech_app">MedTech App - An AI consultant</a></h3>
                             <span>AI and ML with Flutter</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 project-item" data-domain="Flutter">
+                    <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/medtech.png);">
+                        <div class="overlay"></div>
+                        <div class="text text-center p-4">
+                            <h3><a href="https://github.com/Jackjjr24/chatapp_flutter">Chatapp using Firebase</a></h3>
+                            <span>Flutter</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 project-item" data-domain="AI Python">
+                    <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-14.png);">
+                        <div class="overlay"></div>
+                        <div class="text text-center p-4">
+                            <h3><a href="https://github.com/Jackjjr24/AI-query-interface">AI-Powered Database Query Interface</a></h3>
+                            <span>AI and Python</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 project-item" data-domain="HTML/CSS/JS">
+                    <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-15.png);">
+                        <div class="overlay"></div>
+                        <div class="text text-center p-4">
+                            <h3><a href="https://github.com/Jackjjr24/Ai-query-website">AI-Powered Database Query Website</a></h3>
+                            <span>HTML/CSS/JS</span>
                         </div>
                     </div>
                 </div>
@@ -900,7 +922,7 @@
 						</ul>
 					</div>
 				</div>
-				<!-- Remove the following entire block -->
+				
 				<!-- <div class="col-md">
 					<div class="ftco-footer-widget mb-4 ml-md-4">
 						<h2 class="ftco-heading-2">Links</h2>
@@ -912,7 +934,7 @@
 						</ul>
 					</div>
 				</div> -->
-				<!-- Remove the following entire block -->
+				
 				<!-- <div class="col-md">
 					<div class="ftco-footer-widget mb-4">
 						<h2 class="ftco-heading-2">Services</h2>
@@ -941,6 +963,143 @@
 			
 		</div>
 	</footer>
+
+<style>
+    
+    /* Modal styling */
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 100px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.9);
+    }
+
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+    }
+
+    .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+        #filter-buttons {
+        margin-top: 10px; /* Smaller gap from title */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px; /* space between buttons */
+    }
+
+    .btn-filter {
+        background-color: #d0f0ff;
+        border: none;
+        padding: 12px 24px; /* bigger buttons */
+        border-radius: 30px;
+        cursor: pointer;
+        transition: 0.3s ease;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .btn-filter.active,
+    .btn-filter:hover {
+        background-color: #1e90ff; /* dark blue */
+        color: white;
+    }
+
+    /* Optional: Reduce space under "My Projects" heading */
+    #projects-section h2 {
+        margin-bottom: 0.5rem;
+    }
+    .project-item {
+        display: block;
+    }
+    .project-item.hidden {
+        display: none ;
+    }
+
+
+    #caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+    }
+</style>
+
+<script>
+    // ------------------- Certificate Modal Logic -------------------
+    var modal = document.getElementById("myModal");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+
+    var certificates = document.getElementsByClassName("certificate-link");
+    for (var i = 0; i < certificates.length; i++) {
+        certificates[i].onclick = function() {
+            modal.style.display = "block";
+            modalImg.src = this.getAttribute("data-certificate");
+            captionText.innerHTML = this.innerHTML;
+        }
+    }
+
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    modal.onclick = function(event) {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    }
+
+    // ------------------- Project Filter Logic -------------------
+    const filterButtons = document.querySelectorAll(".btn-filter");
+    const projectCards = document.querySelectorAll(".project-item");
+
+    filterButtons.forEach(button => {
+        button.addEventListener("click", () => {
+            // Remove 'active' from all buttons and set it on the clicked one
+            filterButtons.forEach(btn => btn.classList.remove("active"));
+            button.classList.add("active");
+
+            const filter = button.getAttribute("data-filter");
+
+            projectCards.forEach(card => {
+                const domainList = card.getAttribute("data-domain").split(" ");
+                if (filter === "all" || domainList.includes(filter)) {
+                    card.classList.remove("hidden");
+                } else {
+                    card.classList.add("hidden");
+                }
+            });
+        });
+    });
+</script>
+
 	
 
     <!-- loader -->
@@ -959,5 +1118,6 @@
     <script src="js/jquery.animateNumber.min.js"></script>
     <script src="js/scrollax.min.js"></script>
     <script src="js/main.js"></script>
+    
 </body>
 </html>
